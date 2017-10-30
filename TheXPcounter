@@ -1,0 +1,35 @@
+<!-- First we are going to try and create 2 sets of buttons, one for "I did complete" and one for "I did not complete".  
+Purpose of this stage is to log skill level & progress through FreeCodeCamp.org with a practical application of the skills delivered
+recently passed challenge 100 & the program does not provide enough information regarding direction to keep everything practical on a long term
+Will create buttons and add logging in later iterations.  Skill development through github practice, using compiler and maintaining log of activity
+-->
+
+<script>
+      $(document).ready(function(){
+      $("#left-well).css("color", "green");
+      $("#right-well).css("color", "blue");
+      
+      
+      
+      });
+
+<div class="container-fluid">
+  <h3 class="text-primary text-center">TheXP Counter</h3>
+ <div class="row">
+ <div class="col-xs-6">
+    <h4>I gained XP for...!</h4>
+    <div class="well" id="left-well">
+    <button class="btn btn-default target" id="punctual-complete">Was on time!</button>
+    <button class="btn btn-default target" id="money-income">Made Money!</button>
+    <button class="btn btn-default target" id="new-skill">+1 Knowledge</button>
+    </div>
+    <div class="col-xs-6">
+      <h4>#missedOpp</h4>
+   <div class="well" id="right-well">
+   <button class="btn btn-default target" id="punctual-fail">Running Late!</button>
+   <button class="btn btn-default target" id="money-spend">Bought something!</button>
+   <button class="btn btn=default target" id="rest-now">Going to nap</button>
+   </div>
+   </div>
+  </div>
+  </div>
